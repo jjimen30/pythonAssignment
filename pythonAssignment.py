@@ -1,8 +1,12 @@
+
+###################################################################################
 # Author: Jorge Jimenez
 # Assignment: Python Exploration, CSIS2450
+#
 # The project I decided to convert to python was the Java Review Assignment.
 # The parts are devided into three functions, partOne(), partTwo(), and partThree().There is 
 # a test section for this project at the bottom of the file. 
+###################################################################################
 
 
 
@@ -221,7 +225,7 @@ def getCustomerRecord(customerIndex):
             standing += 1
 
         customerAccount.insert(i + 1, payment)
-    print(standing)
+    # print(standing)
     # No more than 4 values
     standing = 3 if standing > 3 else standing
 
@@ -306,7 +310,7 @@ def getCustomerClosedAccount():
 
 ###########################################################################################
 #                           TEST THE PROGRAM
-
-partTwo()
-partThree()
+partOne()
+# partTwo()
+# partThree()
 
